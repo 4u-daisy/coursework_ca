@@ -96,7 +96,7 @@ def lenstra(N):
 
     # выбираем случайные A, a, b
     a, b, A = [random.randint(1, N) for _ in range(3)]
-    # print(f'\nx0 {a}, y0 {b}, a {A}')
+    # print(f'\na {a}, b {b}, A {A}')
 
     # P = (a, b)
     point = Point(a, b)
